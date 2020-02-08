@@ -12,5 +12,6 @@ Kullanımı ;
 
 Uygulama otomatik olarak Userlist 'in bulunduğu sunucudan argüman olarak girilen **VKN** numarası ile arama yapar ve kullanıcı verilerine erişim talebinde bulunur. Güvenlik doğrulaması yapıldıktan sonra gelen **JSON** verisini parçalar ve bize kayıt için gerekli olan şirkete ait _**mail:urn**_ ve _**Şirket Adını**_ cevap olarak döner ve veriyi tutar. Eğer Userlist böyle bir kullanıcıya sahip değil ise kullanıcıdan _**mail:urn**_ girilmesi istenerek kayıt oluşturur.
 
-**Proje Kaynak Kodları İle Paylaşılmıştır.**
+**Proje Kaynak Kodları İle Paylaşılmıştır**.
+
 **Proje 25 MB Sınırını açtığı için bazı dosyalar aktarılamadı. Fakat kaynak kodlarına erişebilirsiniz.**
