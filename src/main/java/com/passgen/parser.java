@@ -34,12 +34,15 @@ public class parser {
         
         String mail1 = alias;
         getvkn getvkn1 = new getvkn();
+	    
         getvkn1.setCompanyId(vkn1);
         getvkn1.setPassword(sifre);
         getvkn1.setUserName(vkn1);
-        getvkn1.setAlias(mail1);
+        getvkn1.setAlias(mail1);	    
         getvkn1.setRoles("USER,VIEW,earchive");
+	    
         Gson gsonBuilder = new GsonBuilder().create();
+	    
         String deneme5 = gsonBuilder.toJson(getvkn1);
         String encodedBytes = Base64.getEncoder().encodeToString(deneme5.getBytes());
         getreq getreq1 = new getreq();
@@ -53,7 +56,7 @@ public class parser {
         getreq2.replace("\\\\", "\\");
           
         String user_name="admin";
-        String password="admin123!";
+        String password="*********";
 
         String auth=new StringBuffer(user_name).append(":").append(password).toString();
         HttpPost post = new HttpPost(url1);
